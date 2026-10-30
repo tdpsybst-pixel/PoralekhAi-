@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width">
+<title>Poralekh AI</title>
+<style>
+body{font-family:system-ui;background:#f0f2f5;padding:15px}
+.card{background:#fff;padding:20px;border-radius:18px;max-width:480px;margin:auto;box-shadow:0 8px 20px #0001}
+button{background:#6a00ff;color:#fff;border:0;padding:12px;width:100%;border-radius:10px;margin-top:8px}
+input,select,textarea{width:100%;padding:12px;margin:6px 0;border-radius:10px;border:1px solid #ddd}
+.bkash{background:#e6006e;color:#fff;padding:10px;border-radius:10px;text-align:center}
+</style>
+</head>
+<body>
+<div class="card">
+<h2>📚 Poralekh AI</h2>
+<textarea id="prompt" placeholder="প্রশ্ন লিখো..."></textarea>
+<button onclick="document.getElementById('ans').innerText='Deploy এর পর কাজ করবে'">উত্তর দাও</button>
+<div id="ans">উত্তর এখানে...</div>
+<hr>
+<div class="bkash">
+bKash: 017XXXXXXXX<br>Weekly 30TK | Monthly 90TK
+</div>
+<input id="trx" placeholder="bKash TrxID">
+<select id="plan"><option>Weekly 30TK</option><option>Monthly 90TK</option></select>
+<button style="background:#e6006e">Verify Payment</button>
+</div>
+</body>
+</html>
